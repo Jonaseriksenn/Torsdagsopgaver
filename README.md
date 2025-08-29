@@ -1,3 +1,3 @@
 # Torsdagsopgaver
 EK Torsdagsopgaver 1. semester
-Jonas jonaseaslam@gmail.com
+Jonas cph-ja486@stud.ek.dk
