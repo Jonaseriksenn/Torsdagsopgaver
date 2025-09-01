@@ -2,8 +2,17 @@
 The code in this sketch will not compile, as it referes to varables which have not yet been declared 
 Please complete task 5 to get this to compile.
 */
+int numberOfCircles; //5.b
+int circlesSize; //5.a
+int x; // 5.c
+int y;
+
+float counter = 0; //5.d
+float rowCounter =0;
+
 void setup(){
    size(400,400);
+  
   
    numberOfCircles = 30;
    circleSize = width/numberOfCircles;
