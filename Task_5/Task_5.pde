@@ -33,7 +33,7 @@ void draw(){
   // Modulus is what is left when you divide one int with another int.
   // 1 % 3 = 1 (3 people can't share 1 apple without cutting it, so 1 apple is left)
   // 2 % 3 = 2
-  // 3 % 3 = 0
+  // 3 % 3 = 
  
   //Add the code for 6.c here
   
