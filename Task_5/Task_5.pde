@@ -3,15 +3,23 @@ The code in this sketch will not compile, as it referes to varables which have n
 Please complete task 5 to get this to compile.
 */
 int numberOfCircles; //5.b
-int circlesSize; //5.a
+int circleSize; //5.a
 int x; // 5.c
 int y;
 
-float counter = 0; //5.d
-float rowCounter =0;
+int counter = 0; //5.d
+int rowCounter =0;
+
+float red; //6.a
+float green;
+float blue;
 
 void setup(){
    size(400,400);
+   red = 255;//6.b
+   green = 255;
+   blue = 255;
+   
   
   
    numberOfCircles = 30;
@@ -26,7 +34,7 @@ void draw(){
   y = circleSize*rowCounter;
  
  // Un-comment this line after completing step 6.a 
- // fill(red,green,blue);
+fill(red,green,blue);
    
    ellipse(x,y,circleSize,circleSize);
   
@@ -45,5 +53,8 @@ void draw(){
   // 3 % 3 = 0
  
   //Add the code for 6.c here
+   red = counter==0 ? (int)random(255):red;
+    green = counter==0 ? (int)random(255):green;
+     blue = counter==0 ? (int)random(255):blue;
   
 }
